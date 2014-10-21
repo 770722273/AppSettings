@@ -19,6 +19,8 @@
 		98761A5017D04E81006F53D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98761A4E17D04E81006F53D7 /* MainStoryboard.storyboard */; };
 		98761A5317D04E81006F53D7 /* BIDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98761A5217D04E81006F53D7 /* BIDMainViewController.m */; };
 		98761A5617D04E81006F53D7 /* BIDFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98761A5517D04E81006F53D7 /* BIDFlipsideViewController.m */; };
+		98761A5D17D050B9006F53D7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98761A5C17D050B9006F53D7 /* Settings.bundle */; };
+		98FBA91417D37E3D0011E8FA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA91317D37E3D0011E8FA /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		98761A5217D04E81006F53D7 /* BIDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDMainViewController.m; sourceTree = "<group>"; };
 		98761A5417D04E81006F53D7 /* BIDFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDFlipsideViewController.h; sourceTree = "<group>"; };
 		98761A5517D04E81006F53D7 /* BIDFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDFlipsideViewController.m; sourceTree = "<group>"; };
+		98761A5C17D050B9006F53D7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		98FBA91317D37E3D0011E8FA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 				98761A5217D04E81006F53D7 /* BIDMainViewController.m */,
 				98761A5417D04E81006F53D7 /* BIDFlipsideViewController.h */,
 				98761A5517D04E81006F53D7 /* BIDFlipsideViewController.m */,
+				98761A5C17D050B9006F53D7 /* Settings.bundle */,
 				98761A3D17D04E81006F53D7 /* Supporting Files */,
 			);
 			path = AppSettings;
@@ -101,6 +106,7 @@
 		98761A3D17D04E81006F53D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98FBA91317D37E3D0011E8FA /* Icon.png */,
 				98761A3E17D04E81006F53D7 /* AppSettings-Info.plist */,
 				98761A3F17D04E81006F53D7 /* InfoPlist.strings */,
 				98761A4217D04E81006F53D7 /* main.m */,
@@ -169,6 +175,8 @@
 				98761A4B17D04E81006F53D7 /* Default@2x.png in Resources */,
 				98761A4D17D04E81006F53D7 /* Default-568h@2x.png in Resources */,
 				98761A5017D04E81006F53D7 /* MainStoryboard.storyboard in Resources */,
+				98761A5D17D050B9006F53D7 /* Settings.bundle in Resources */,
+				98FBA91417D37E3D0011E8FA /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +313,7 @@
 				98761A5B17D04E81006F53D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
