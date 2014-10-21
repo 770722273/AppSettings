@@ -10,4 +10,5 @@
 
 @interface BIDMainViewController : UIViewController <BIDFlipsideViewControllerDelegate>
 
+-(void)test;
 @end
